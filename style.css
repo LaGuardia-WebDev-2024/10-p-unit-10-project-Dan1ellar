@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #EFB6C8;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,13 +14,13 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 5px solid white;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #EFB6C8;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -28,13 +28,16 @@ html{
 
 .pic{
   height: 600px;
-  width: 400px;
+  width: 700px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 5px solid white;
 }
 
 h2{
-  color: black;
+  color: #B4EBE6;
+   font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 200;
+  font-style: normal;
 }
 
 #start{
